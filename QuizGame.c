@@ -29,7 +29,7 @@ int main() {
     strcpy(q2.wrongAnswer3, "1995");
     
     char startGame;
-    int score[4];
+    int score[4] = {0, 0, 0, 0};
     char answer[4];
     const char KEY[] = {'A', 'B', 'C', 'D'};
     int numberOfPlayers;
