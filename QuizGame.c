@@ -50,6 +50,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[0].solution);
+        printf("\n");
 
         printf("Segunda pergunta:\n");
         printf("%s\n", getQuestionList().questionList[1].problem);
@@ -81,6 +82,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[1].solution);
+        printf("\n");
 
         printf("Terceira pergunta:\n");
         printf("%s\n", getQuestionList().questionList[2].problem);
@@ -112,6 +114,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[2].solution);
+        printf("\n");
 
         printf("Quarta pergunta:\n");
         printf("%s\n", getQuestionList().questionList[3].problem);
@@ -143,6 +146,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[3].solution);
+        printf("\n");
 
         printf("Quinta pergunta:\n");
         printf("%s\n", getQuestionList().questionList[4].problem);
@@ -174,6 +178,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[4].solution);
+        printf("\n");
 
         printf("Sexta pergunta:\n");
         printf("%s\n", getQuestionList().questionList[5].problem);
@@ -205,6 +210,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[5].solution);
+        printf("\n");
 
         printf("Sétima pergunta:\n");
         printf("%s\n", getQuestionList().questionList[6].problem);
@@ -236,6 +242,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[6].solution);
+        printf("\n");
 
         printf("Oitava pergunta:\n");
         printf("%s\n", getQuestionList().questionList[7].problem);
@@ -267,6 +274,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[7].solution);
+        printf("\n");
 
         printf("Nona pergunta:\n");
         printf("%s\n", getQuestionList().questionList[8].problem);
@@ -298,6 +306,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[8].solution);
+        printf("\n");
 
         printf("Última pergunta:\n");
         printf("%s\n", getQuestionList().questionList[9].problem);
@@ -329,6 +338,7 @@ int main() {
         }
 
         printf("A resposta certa era: %s\n", getQuestionList().questionList[9].solution);
+        printf("\n");
 
         printf("Acabou o jogo!\n");
         printf("\n");
