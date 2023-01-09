@@ -98,5 +98,5 @@ struct questionList getQuestionList() {
     ql.questionList[9] = q10;
 
     return ql;
-};
+}
 
