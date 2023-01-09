@@ -343,7 +343,7 @@ int main() {
         printf("Acabou o jogo!\n");
         printf("\n");
 
-        for(int i = 1; i < numberOfPlayers + 1; i++) {
+        for(int i = 1; i <= numberOfPlayers; i++) {
             printf("Jogador %d\n", i);
             printf("Pontuação: %d\n", score[i]);
             printf("\n");
