@@ -13,12 +13,12 @@ int main() {
     int numberOfPlayers;
 
     printf("Quiz Game\n");
-    printf("Y para comeÃ§ar / E para sair\n");
+    printf("Y para começar / E para sair\n");
     printf("\n");
     gameSelection: scanf(" %c", &startGame);
 
     if(startGame == 'Y') {
-        printf("Escolha o nÃºmero de jogadores (atÃ© 4):\n");
+        printf("Escolha o número de jogadores (até 4):\n");
         scanf(" %d", &numberOfPlayers);
         printf("\n");
 
@@ -40,11 +40,11 @@ int main() {
             if(answer[i] == KEY[2]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -72,11 +72,11 @@ int main() {
             if (answer[i] == KEY[1]) {
                  printf("Certo!\n");
                  score[i] += 1;
-                 printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                 printf("Pontuação: %d\n", score[i]);
                  printf("\n");
             } else {
                  printf("Errado...\n");
-                 printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                 printf("Pontuação: %d\n", score[i]);
                  printf("\n");
             }
         }
@@ -104,11 +104,11 @@ int main() {
             if(answer[i] == KEY[2]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -136,11 +136,11 @@ int main() {
             if(answer[i] == KEY[3]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -168,11 +168,11 @@ int main() {
             if(answer[i] == KEY[0]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -200,11 +200,11 @@ int main() {
             if(answer[i] == KEY[1]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -212,7 +212,7 @@ int main() {
         printf("A resposta certa era: %s\n", getQuestionList().questionList[5].solution);
         printf("\n");
 
-        printf("SÃ©tima pergunta:\n");
+        printf("Sétima pergunta:\n");
         printf("%s\n", getQuestionList().questionList[6].problem);
         printf("%c. %s\n", KEY[0], getQuestionList().questionList[6].wrongAnswer2);
         printf("%c. %s\n", KEY[1], getQuestionList().questionList[6].wrongAnswer3);
@@ -232,11 +232,11 @@ int main() {
             if(answer[i] == KEY[2]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -264,11 +264,11 @@ int main() {
             if(answer[i] == KEY[3]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -296,11 +296,11 @@ int main() {
             if(answer[i] == KEY[0]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -308,7 +308,7 @@ int main() {
         printf("A resposta certa era: %s\n", getQuestionList().questionList[8].solution);
         printf("\n");
 
-        printf("Ãšltima pergunta:\n");
+        printf("Última pergunta:\n");
         printf("%s\n", getQuestionList().questionList[9].problem);
         printf("%c. %s\n", KEY[0], getQuestionList().questionList[9].wrongAnswer3);
         printf("%c. %s\n", KEY[1], getQuestionList().questionList[9].solution);
@@ -328,11 +328,11 @@ int main() {
             if(answer[i] == KEY[1]) {
                 printf("Certo!\n");
                 score[i] += 1;
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             } else {
                 printf("Errado...\n");
-                printf("PontuaÃ§Ã£o: %d\n", score[i]);
+                printf("Pontuação: %d\n", score[i]);
                 printf("\n");
             }
         }
@@ -345,7 +345,7 @@ int main() {
 
         for(int i = 1; i < numberOfPlayers + 1; i++) {
             printf("Jogador %d\n", i);
-            printf("PontuaÃ§Ã£o: %d\n", score[i]);
+            printf("Pontuação: %d\n", score[i]);
             printf("\n");
         }
 
