@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#Other
+.idea/encodings.xml
+.idea/modules.xml
+.idea/quiz-game.iml
+.idea/vcs.xml
+.idea/.gitignore
